@@ -2,7 +2,7 @@
 
 This is the AWS Lambda + API Gateway + DynamoDB  project with 2 functions, built and deployed using [Serverless](https://serverless.com) framework.
 
-This is based on this [Java tutorial](https://lobster1234.github.io/categories/serverless/), which has been modified to use Scala with the [scanamo ORM](https://guardian.github.io/scanamo/) and [JSON4s](https://github.com/json4s/json4s)
+This is based on this [Java tutorial](https://lobster1234.github.io/categories/serverless/), which has been modified to use Scala with the [scanamo ORM](https://guardian.github.io/scanamo/) and [JSON4s](https://github.com/json4s/json4s). The project is meant to give a simple starting point for building up Serverless APIs in Scala.
 
 ## Usage
 
@@ -15,7 +15,7 @@ bash-3.2$ git clone https://github.com/gvonness/scala-serverless-api-dynamodb-ex
 
 bash-3.2$ cd scala-serverless-api-dynamodb-example
 
-bash-3.2$ sbt assemble
+bash-3.2$ sbt assembly
 
 bash-3.2$ serverless deploy
 
